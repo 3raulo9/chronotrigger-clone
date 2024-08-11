@@ -1,0 +1,15 @@
+.game {
+    width: 800px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+  }
+  
+  .character {
+    position: absolute;
+    width: 50px; /* Adjust based on your character's size */
+    height: 50px;
+    transition: all 0.1s linear; /* Smooth movement */
+  }
+  
